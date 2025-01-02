@@ -1,10 +1,10 @@
-FROM alpine:3.18
+FROM alpine:3.21
 
 # Metadata params
 ARG VCS_REF
 ARG BUILD_DATE
 
-ENV NUT_VERSION 2.8.1
+ENV NUT_VERSION 2.8.2
 
 ENV UPS_NAME="ups"
 ENV UPS_DESC="UPS"
